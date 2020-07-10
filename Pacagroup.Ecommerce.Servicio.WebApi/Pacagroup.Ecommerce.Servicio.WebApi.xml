@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pacagroup.Ecommerce.Servicio.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController">
+            <summary>
+            Controller Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.#ctor(Pacagroup.Ecommerce.Aplicacion.Interface.ICustomerAplicacion)">
+            <summary>
+            Constructor Controller Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.Insert(Pacagroup.Ecommerce.Aplicacion.DTO.CustomerDTO)">
+            <summary>
+            Syncronic Method Insert Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.Update(Pacagroup.Ecommerce.Aplicacion.DTO.CustomerDTO)">
+            <summary>
+            Syncronic Method Update Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.Delete(System.String)">
+            <summary>
+            Syncronic Method Delete Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.Get(System.String)">
+            <summary>
+            Syncronic Method Delete Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.GetAll">
+            <summary>
+            Syncronic Method Get All Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.InsertAsync(Pacagroup.Ecommerce.Aplicacion.DTO.CustomerDTO)">
+            <summary>
+            Asyncronic Method Insert Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.UpdateAsync(Pacagroup.Ecommerce.Aplicacion.DTO.CustomerDTO)">
+            <summary>
+            Asyncronic Method Update Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.DeleteAsync(System.String)">
+            <summary>
+            Asyncronic Method Delete Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.GetAsync(System.String)">
+            <summary>
+            Asyncronic Method Get Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Controllers.CustomerController.GetAllAsync">
+            <summary>
+            Asyncronic Method Get All Customer.
+            </summary>
+        </member>
+        <member name="T:Pacagroup.Ecommerce.Servicio.WebApi.Helpers.AppSettings">
+            <summary>
+            Controller Customer.
+            </summary>
+        </member>
+        <member name="P:Pacagroup.Ecommerce.Servicio.WebApi.Helpers.AppSettings.OriginCors">
+            <summary>
+            OriginCors.
+            </summary>
+        </member>
+        <member name="P:Pacagroup.Ecommerce.Servicio.WebApi.Helpers.AppSettings.Secret">
+            <summary>
+            Secret.
+            </summary>
+        </member>
+        <member name="P:Pacagroup.Ecommerce.Servicio.WebApi.Helpers.AppSettings.Issuer">
+            <summary>
+            Issuer.
+            </summary>
+        </member>
+        <member name="P:Pacagroup.Ecommerce.Servicio.WebApi.Helpers.AppSettings.Audience">
+            <summary>
+            Audience.
+            </summary>
+        </member>
+        <member name="T:Pacagroup.Ecommerce.Servicio.WebApi.Startup">
+            <summary>
+            Controller Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Controller Customer.
+            </summary>
+        </member>
+        <member name="P:Pacagroup.Ecommerce.Servicio.WebApi.Startup.Configuration">
+            <summary>
+            Controller Customer.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+        </member>
+        <member name="M:Pacagroup.Ecommerce.Servicio.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+        </member>
+    </members>
+</doc>

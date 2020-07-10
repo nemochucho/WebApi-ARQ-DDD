@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pacagroup.Ecommerce.Aplicacion.DTO\Pacagroup.Ecommerce.Aplicacion.DTO.csproj" />
+    <ProjectReference Include="..\Pacagroup.Ecommerce.Aplicacion.Interface\Pacagroup.Ecommerce.Aplicacion.Interface.csproj" />
+    <ProjectReference Include="..\Pacagroup.Ecommerce.Dominio.Entity\Pacagroup.Ecommerce.Dominio.Entity.csproj" />
+    <ProjectReference Include="..\Pacagroup.Ecommerce.Dominio.Interface\Pacagroup.Ecommerce.Dominio.Interface.csproj" />
+    <ProjectReference Include="..\Pacagroup.Ecommerce.Transversal.Common\Pacagroup.Ecommerce.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
